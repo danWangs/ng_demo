@@ -6,8 +6,10 @@
     <script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
 </head>
 <body>
-    <div ng-app="">
-        {{10*10}}
-    </div>
+<div ng-app="" ng-init="quantity=1;cost=5">
+
+    <p>总价： <span ng-bind="quantity * cost"></span></p>
+
+</div>
 </body>
 </html>
