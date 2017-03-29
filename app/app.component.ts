@@ -19,7 +19,7 @@ import { Site } from './site';
 export class AppComponent {
     title = '站点列表';
     sites = [
-        new Site(1, '菜鸟教程'),
+        new Site(1, 'caicai'),
         new Site(2, 'Google'),
         new Site(3, 'Taobao'),
         new Site(4, 'Facebook')
