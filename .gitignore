@@ -2,5 +2,6 @@ logs
 *.log
 .grunt
 node_modules
+typings
 bower_components
 build
