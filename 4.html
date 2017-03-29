@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2</title>
+    <title>Title</title>
 </head>
 <body>
-<div ng-app="" ng-init="quantity=1;cost=5">
+<div ng-app="myApp" ng-controller="myCtrl">
 
-    <p>总价： <span ng-bind="quantity * cost"></span></p>
+    <h1>{{carname}}</h1>
 
 </div>
 <script src="js/angular.min.js"></script>
+<script src="controller/test.js"></script>
 </body>
 </html>

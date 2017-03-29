@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="contr">
+    <input type="text" value="{{username}}">
+    <input type="password" value="{{password}}">
+</div>
+<script src="js/angular.min.js"></script>
+<script>
+    var app = angular.module("myApp",[]);
+    app.controller("contr",function ($scope) {
+        $scope.username='abc';
+        $scope.password='123456';
+    })
+</script>
+</body>
+</html>
