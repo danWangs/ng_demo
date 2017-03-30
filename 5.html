@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        a{
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 <div ng-app="myapp" ng-controller="controller">
@@ -23,7 +28,6 @@
                 <update ng-Model="employee" ng-show="!showEdit"><a>Update</a></update>
                 <cancel ng-Model="employee" ng-show="!showEdit"> | <a>Cencel</a></cancel>
                 | <delete ng-Model="employee"><a>Delete</a></delete>
-
             </td>
         </tr>
     </table>
