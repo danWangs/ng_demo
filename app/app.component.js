@@ -12,7 +12,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.title = '站点列表';
         this.sites = [
-            new site_1.Site(1, '菜鸟教程'),
+            new site_1.Site(1, 'caicai'),
             new site_1.Site(2, 'Google'),
             new site_1.Site(3, 'Taobao'),
             new site_1.Site(4, 'Facebook')
